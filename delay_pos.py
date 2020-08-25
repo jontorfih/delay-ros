@@ -8,17 +8,22 @@ from threading import Thread
 from collections import deque
 
 
-mes = TwistStamped()
+mes = PoseStamped()
 mes.header = Header()
 start = True
 xlist = deque([])
 ylist = deque([])
 zlist = deque([])
 
+xorlist = deque([])
+yorlist = deque([])
+zorlist = deque([])
+worlist = deque([])
+
 def startchange(starts):
     d = rospy.Duration(0,10000)
     d = float(0.01)
-    rospy.sleep(3)
+    rospy.sleep(1)
     global start
     start = starts
 
@@ -27,16 +32,21 @@ def pub_mesg():
     if(start == True):
         startchange(False)
     
-    pub = rospy.Publisher('chatter2', TwistStamped, queue_size=2000)
+    pub = rospy.Publisher('pos_chatter', PoseStamped, queue_size=2000)
     rate = rospy.Rate(30)
     while not rospy.is_shutdown():
         mes.header.stamp = rospy.Time.now()
-        mes.twist.linear.x  = xlist[0]
-        mes.twist.linear.y  = ylist[0]
-        mes.twist.linear.z  = zlist[0]
+        mes.header.frame_id = 'map'
+        mes.pose.position.x  = xlist[0]
+        mes.pose.position.y  = ylist[0]
+        mes.pose.position.z  = zlist[0]
         xlist.popleft()
         ylist.popleft()
         zlist.popleft()
+        
+        mes.pose.orientation.x = xorlist[0]
+        mes.pose.orientation.y = yorlist[0]
+        mes.pose.orientation.z = zorlist[0]
         pub.publish(mes)
 
         try:
@@ -45,11 +55,14 @@ def pub_mesg():
             pass
 
 def callbacks(data):  
-    xlist.append(data.twist.linear.x)
-    ylist.append(data.twist.linear.y)
-    zlist.append(data.twist.linear.z)
+    xlist.append(data.pose.position.x)
+    ylist.append(data.pose.position.y)
+    zlist.append(data.pose.position.z)
 
-    
+    xorlist.append(data.pose.orientation.x)
+    yorlist.append(data.pose.orientation.y)
+    zorlist.append(data.pose.orientation.z)
+    worlist.append(data.pose.orientation.w)
     
 def listener():
         
@@ -63,7 +76,7 @@ def listener():
     
     #rospy.init_node('pub_mesg', anonymous=True)
     
-    rospy.Subscriber("chatter", TwistStamped, callback= callbacks, queue_size=2000)
+    rospy.Subscriber("/mavros/local_position/pose", PoseStamped, callback= callbacks, queue_size=2000)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
