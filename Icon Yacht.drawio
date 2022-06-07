@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T13:05:30.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="LKoVBXFqrvpxT1_VWBol" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T13:34:45.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Ii6JoXzf-usjBThSnxBV" version="19.0.2" type="github">
   <diagram id="wf1PzRMaRmpDCSiPXFWi" name="Page-1">
-    <mxGraphModel dx="950" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,82 @@
         <mxCell id="C6Sp4-k7lOcV-1RX9fJF-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dynamics360.net/wp-content/uploads/2019/12/Dynamics-NAV-01-01-copy.svg;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="138.67" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-5" value="Planning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="338.5" y="310" width="71.5" height="52" as="geometry" />
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="C6Sp4-k7lOcV-1RX9fJF-10" target="C6Sp4-k7lOcV-1RX9fJF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-37" value="Budget" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C6Sp4-k7lOcV-1RX9fJF-30">
+          <mxGeometry x="-0.1674" y="1" relative="1" as="geometry">
+            <mxPoint x="-41" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-10" value="Project planning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336.75" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-11" value="Timesheets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="510" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-12" value="Sales orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C6Sp4-k7lOcV-1RX9fJF-13" target="C6Sp4-k7lOcV-1RX9fJF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-27" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left;&quot;&gt;Place purchase&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C6Sp4-k7lOcV-1RX9fJF-26">
+          <mxGeometry x="-0.5507" y="-1" relative="1" as="geometry">
+            <mxPoint x="-71" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-13" value="Contracts docs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="295" width="71.24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="C6Sp4-k7lOcV-1RX9fJF-14" target="C6Sp4-k7lOcV-1RX9fJF-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-32" value="Cashflow" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C6Sp4-k7lOcV-1RX9fJF-31">
+          <mxGeometry x="-0.2893" y="1" relative="1" as="geometry">
+            <mxPoint x="-20" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-14" value="Progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="350" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-15" value="Reports" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="460" width="65.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-16" value="Specs req" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710.62" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-17" value="Technical req" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705.62" y="470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-18" value="Drawings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="530" width="71.24" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-19" value="Work orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-20" value="Purchase orders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-21" value="Critical path" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="290" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-24" value="Filed reports" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710.62" y="590" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-25" value="Holiday Planning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.75" y="560" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-29" value="Planning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715.62" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-34" value="Planning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="512" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="C6Sp4-k7lOcV-1RX9fJF-35" value="Salary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="569.5" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
