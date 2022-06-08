@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T07:47:54.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="2DsGyCP6JKAHd2e2qPil" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T07:48:04.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="e4tAI8eNBH_t37uBFk1e" version="19.0.2" type="github">
   <diagram id="wf1PzRMaRmpDCSiPXFWi" name="Page-1">
     <mxGraphModel dx="1185" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         </mxCell>
         <mxCell id="C6Sp4-k7lOcV-1RX9fJF-51" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=calibri&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;text-align: start; font-size: 13px;&quot;&gt;RFQs and POs to suppliers&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;text-align: start; font-size: 13px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=calibri&quot; style=&quot;font-size: 13px;&quot;&gt;VTCs Sales Ord&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=calibri&quot; style=&quot;font-size: 13px;&quot;&gt;ers&lt;br style=&quot;font-size: 13px;&quot;&gt;VTC PO Amendments&lt;/font&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=13;labelBorderColor=default;" vertex="1" connectable="0" parent="C6Sp4-k7lOcV-1RX9fJF-50">
           <mxGeometry x="-0.1682" y="1" relative="1" as="geometry">
-            <mxPoint x="15" y="-1" as="offset" />
+            <mxPoint x="-1" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C6Sp4-k7lOcV-1RX9fJF-49" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Sharepoint&lt;br&gt;Links&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="1">
